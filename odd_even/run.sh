@@ -1,9 +1,9 @@
 #!/bin/bash
 exec=$1
-for testcase in case*.in; do
+for testcase in "case*.in"; do
     echo "Running against ${testcase}..."
-    cat $testcase | $exec
+    useranswer=$(cat $testcase | $exec)
     
     answer=$(cat $(basename $testcase .in).out)
-    echo $answer
+    echo "$useranswer $answer"
 done
