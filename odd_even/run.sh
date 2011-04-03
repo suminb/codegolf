@@ -1,6 +1,6 @@
 #!/bin/bash
 exec=$1
-for testcase in "case*.in"; do
+for testcase in "test*.in"; do
     echo "Running against ${testcase}..."
     useranswer=$(cat $testcase | $exec)
     
