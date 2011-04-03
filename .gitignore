@@ -1,2 +1,4 @@
 .DS_Store
+odd_even/*.c
+odd_even/*.py
 
