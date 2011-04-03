@@ -10,6 +10,7 @@
 * 여러분이 좋아하는(?) C 혹은 C++ (GNU GCC 4.2에서 컴파일 되어야 함)
 * Haskell (on hugs98)
 * Java 6
+* JavaScript (on V8)
 * Perl 5
 * PHP 5
 * Python 2.7
