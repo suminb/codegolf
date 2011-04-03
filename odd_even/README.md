@@ -79,9 +79,9 @@
 
 ### 테스트 케이스 ###
 
-테스트 케이스는 [여기](https://github.com/suminb/codegolf/tree/master/odd_even)에 공개 되어있다. `.in` 파일은 입력 파일이며, `.out`은 해당 입력에 대한 올바른 답이다.[^1]
+테스트 케이스는 [여기](https://github.com/suminb/codegolf/tree/master/odd_even)에 공개 되어있다. `.in` 파일은 입력 파일이며, `.out`은 해당 입력에 대한 올바른 답이다. (미완성)
 
-자동 채점 스크립트는 [여기](https://github.com/suminb/codegolf/blob/master/odd_even/run.sh)에 공개 되어있다.[^2]
+자동 채점 스크립트는 [여기](https://github.com/suminb/codegolf/blob/master/odd_even/run.sh)에 공개 되어있다. (이것도 아직 미완성)
 
 ### 소스코드 제출 ###
 
@@ -92,6 +92,3 @@
 ### 채점 기준 ###
 
 소스코드 길이는 파일 바이트 수를 기준으로 하며, 가장 짧은 코드를 작성한 사람이 우승하는 방식이다.
-
-[^1]: 아직 미완성.
-[^2]: 이것도 아직 미완성.
