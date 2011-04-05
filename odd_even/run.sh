@@ -13,11 +13,11 @@ for testcase in test*.in; do
     useranswer=$(trim $(cat $testcase | $exec))
     answer=$(trim $(cat $(basename $testcase .in).out))
     
-    if [ $answer = $useranswer ]; then
-        echo -e "${E}[32mOK${R}"
+    if [ "${answer}" = "${useranswer}" ]; then
+        echo -e "${E}[32mPassed${R}"
         passed=`expr $passed + 1`
     else
-        echo -en "${E}[31mMismatch${R}"
+        echo -en "${E}[31mFailed${R}"
         echo " (Expected '${answer}', but '${useranswer}' was returned)"
     fi
     
